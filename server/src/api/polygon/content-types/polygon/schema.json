@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "polygons",
+  "info": {
+    "singularName": "polygon",
+    "pluralName": "polygons",
+    "displayName": "polygon",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "coordinate": {
+      "type": "json",
+      "required": true
+    },
+    "uid": {
+      "type": "uid",
+      "required": true
+    },
+    "zoom": {
+      "required": true,
+      "default": 9,
+      "type": "integer"
+    }
+  }
+}
